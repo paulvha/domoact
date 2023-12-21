@@ -10,12 +10,12 @@ body {
 }
 
 .front{
-  width: 500px;
+  // width: 500px;
   margin-left:auto;
   margin-right:auto;
-  background-color:rgba(180, 180, 180, 0.5);
+  //background-color:rgba(180, 180, 180, 0.5);
   color: Gainsboro;
-  padding: 30px;
+  //padding: 30px;
 }
 
 .wrapper h1 {
@@ -42,8 +42,8 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: 888;
- // justify-content: center;
- // align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
@@ -55,8 +55,8 @@ body {
   min-width: 360px;
   width: 100%;
   //display: flex;
-  //justify-content: center;
-  //align-items: center;
+  justify-content: center;
+  align-items: center;
   perspective: 1000px;
   perspective-origin: 50% 50%;
   overflow: hidden;");
