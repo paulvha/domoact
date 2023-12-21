@@ -1,3 +1,4 @@
+// Original source : https://github.com/dwmkerr/starfield
 body {
 	margin: 0px;
 	padding: 0px;
@@ -17,11 +18,10 @@ body {
 }
 
 #front {
-	//width: 500px;
 	margin-left:auto;
 	margin-right:auto;
 	color: Gainsboro;
-	//padding: 5px;
+	padding: 2px;
 }
 
 .button {
