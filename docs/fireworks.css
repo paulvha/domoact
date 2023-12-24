@@ -1,6 +1,6 @@
 /* https://alvaromontoro.com/blog/68002/creating-a-firework-effect-with-css
  *
- * Adjusted to DoMoAct paulvha/ December 2023
+ * Adjusted to DoMoAct paulvha / December 2023
  */
 body {
   background:
@@ -189,6 +189,10 @@ h2 {
   top: 60%;
   animation-delay: -0.4s;
 }
+.firework:nth-child(4) {
+  --x: -60vmin;
+  --y: -55vmin;
+}
 
 .firework:nth-child(4),
 .firework:nth-child(4)::before,
@@ -204,6 +208,12 @@ h2 {
   top: 30%;
   animation-delay: -0.5s;
 }
+
+.firework:nth-child(5) {
+  --x: -25vmin;
+  --y: -65vmin;
+}
+
 .firework:nth-child(5),
 .firework:nth-child(5)::before,
 .firework:nth-child(5)::after {
@@ -217,6 +227,11 @@ h2 {
   left: 75%;
   top: 50%;
   animation-delay: -0.65s;
+}
+
+.firework:nth-child(6) {
+  --x: -70vmin;
+  --y: -25vmin;
 }
 .firework:nth-child(6),
 .firework:nth-child(6)::before,
