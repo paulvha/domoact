@@ -1,4 +1,6 @@
 /* https://alvaromontoro.com/blog/68002/creating-a-firework-effect-with-css
+ *
+ * Adjusted to DoMoAct paulvha/ December 2023
  */
 body {
   background:
@@ -215,4 +217,18 @@ h2 {
   left: 75%;
   top: 50%;
   animation-delay: -0.65s;
+}
+.firework:nth-child(6),
+.firework:nth-child(6)::before,
+.firework:nth-child(6)::after {
+  --color1: pink;
+  --color2: violet;
+  --color3: red;
+  --color4: orchid;
+  --color5: PaleTurquoise;
+  --color6: lavender;
+  --finalSize: 50vmin;
+  left: 75%;
+  top: 80%;
+  animation-delay: -0.25s;
 }
