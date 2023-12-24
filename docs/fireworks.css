@@ -205,13 +205,13 @@ h2 {
   --color6: lavender;
   --finalSize: 35vmin;
   left: 20%;
-  top: 30%;
+  top: 40%;
   animation-delay: -0.5s;
 }
 
 .firework:nth-child(5) {
   --x: -25vmin;
-  --y: -65vmin;
+  --y: -60vmin;
 }
 
 .firework:nth-child(5),
@@ -224,8 +224,8 @@ h2 {
   --color5: plum;
   --color6: lavender;
   --finalSize: 50vmin;
-  left: 75%;
-  top: 50%;
+  left: 25%;
+  top: 75%;
   animation-delay: -0.65s;
 }
 
@@ -244,6 +244,6 @@ h2 {
   --color6: lavender;
   --finalSize: 50vmin;
   left: 75%;
-  top: 80%;
-  animation-delay: -0.25s;
+  top: 75%;
+  animation-delay: -1.5s;
 }
