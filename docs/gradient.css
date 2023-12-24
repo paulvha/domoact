@@ -1,5 +1,7 @@
 /* source : https://freefrontend.com/css-animated-backgrounds/page/2/
  * Pure CSS3 Gradient Background Animation - Manual Pinto - 2016
+ *
+ * Adjusted to DoMoAct paulvha/ December 2023
  */
 body {
   Background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
