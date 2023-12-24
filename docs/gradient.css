@@ -1,10 +1,10 @@
-// source : https://freefrontend.com/css-animated-backgrounds/page/2/
-// Pure CSS3 Gradient Background Animation - Manual Pinto - 2016
+/* source : https://freefrontend.com/css-animated-backgrounds/page/2/
+ * Pure CSS3 Gradient Background Animation - Manual Pinto - 2016
+ */
 body {
   Background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  //height: 100vh;
   padding: 5px;
 }
 
