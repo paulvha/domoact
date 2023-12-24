@@ -10,12 +10,9 @@ body {
 }
 
 .front{
-  // width: 500px;
   margin-left:auto;
   margin-right:auto;
-  //background-color:rgba(180, 180, 180, 0.5);
   color: Gainsboro;
-  //padding: 30px;
 }
 
 .wrapper h1 {
