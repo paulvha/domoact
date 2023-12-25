@@ -1,3 +1,7 @@
+/* Source : https://github.com/rad1k-k/Background-Stars-Animation
+ *
+ * Adjusted to DoMoAct paulvha / December 2023
+ */
 * {
     margin: 0;
     padding: 0px;
@@ -8,7 +12,7 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
- 	  padding: 5px;
+		padding: 5px;
     background: linear-gradient(to bottom, #000 0%, #282369 100%);
 }
 
