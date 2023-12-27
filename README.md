@@ -18,7 +18,7 @@ The processor board is the Arduino UNO-R4 WiFi. A board with relays can be conne
 ## Documentation
 --------------
 Check the extras folder for the manual
-* **[DoMoAct Manual](https://./extras/DomoAct-manual.odt)** - hookup guide for the OLA.
+* **[DoMoAct Manual](./extras/DomoAct-manual.odt)** - hookup guide for the OLA.
 
 
 ## Auteur
