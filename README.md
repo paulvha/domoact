@@ -13,9 +13,9 @@ It contains a buffer of the last 50 switches actions (this can be extended) that
 ##Different versions
 There are 3 versions which do functionally the same, the look&feel is the same,  but parts of the code are slidly different.
 
-* Using [UNO-R4 Wifi](https://github.com/paulvha/domoact/tree/main/UNOR4). This is using an HTTP server and the on-board LED Matrix.
-* Using [ESP32-HTTPS](https://github.com/paulvha/domoact/tree/main/ESP32-HTTPS). This is using an external [HTTPS-server](https://github.com/fhessel/esp32_https_server). It is reaction slower due to checks and structure of the HTTPS server.
-* Using [ESP32-HTTP](https://github.com/paulvha/domoact/tree/main/ESP32-HTTP). Using the standard ESP32 HTTP-server implementation.
+* Using [UNO-R4 Wifi](https://github.com/paulvha/domoact/tree/main/DoMoAct_UNOR4). This is using an HTTP server and the on-board LED Matrix.
+* Using [ESP32-HTTPS](https://github.com/paulvha/domoact/tree/main/DoMoAct_ESP32_https). This is using an external [HTTPS-server](https://github.com/fhessel/esp32_https_server). It is reaction slower due to checks and structure of the HTTPS server.
+* Using [ESP32-HTTP](https://github.com/paulvha/domoact/tree/main/DoMoAct_ESP32_http). Using the standard ESP32 HTTP-server implementation.
 
 Please refer to the individual sub-folders for more information.
 
