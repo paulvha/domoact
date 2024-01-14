@@ -1,8 +1,8 @@
-#DoMoAct
+#DoMoAct versions
 ===========================================================
 
 ## Overview
-DoMoAct is a system to can switch a GPIO's high/low based on comparing the requested switch time against the current time. The current time is taken from the time. Time is initialized from an NTP server at start-up and every night after.The switch time can be set as a hard / fixed time or based on the daily sunset / sunrise time on your location. <br>
+DoMoAct is a system to can switch a GPIO's high/low based on comparing the requested switch time against the current time. The current time is taken from the time. Time is initialized from an NTP server at start-up and every night after.The switch time can be set as a hard / fixed time or based on the daily sunset / sunrise time on your location. DayLightSaving is handled as well. <br>
 
 You can also add sensors to switch a GPIO. One could measure the temperature and if too high, switch on a blower, or measure the waterlevel and switch a pump if level is too high or too low. As an example there is a temperature sensor DS1820.<br>
 
@@ -10,14 +10,14 @@ DoMoAct has a serial-menu which is the primary source for configuration and a WE
 
 It contains a buffer of the last 50 switches actions (this can be extended) that can recalled with the serial-menu. The Web-interface can be set to different background themes.
 
-##different versions
-There are 3 versions which are slidly different.
+##Different versions
+There are 3 versions which do functionally the same, the look&feel is the same,  but parts of the code are slidly different.
 
-* based on [UNO-R4 Wifi](https://github.com/paulvha/domoact/tree/main/UNO-R4). This is using an HTTP server and the on-board LED Matrix.
-* based on [ESP32-HTTPS](ddd). This is using an external [HTTPS-server](https://github.com/fhessel/esp32_https_server)
-* based on [ESP32-HTTP](ll). Using the standard ESP32 HTTP-server implemenation.
+* Using [UNO-R4 Wifi](https://github.com/paulvha/domoact/tree/main/UNO-R4). This is using an HTTP server and the on-board LED Matrix.
+* Using [ESP32-HTTPS](https://github.com/paulvha/domoact/tree/main/ESP32-HTTPS). This is using an external [HTTPS-server](https://github.com/fhessel/esp32_https_server). It is reaction slower due to checks and structure of the HTTPS server.
+* Using [ESP32-HTTP](https://github.com/paulvha/domoact/tree/main/ESP32-HTTP). Using the standard ESP32 HTTP-server implementation.
 
-Please refer to the individual sub-folders for more information
+Please refer to the individual sub-folders for more information.
 
 ## Auteur
 Paulvha@hotmail.com
